@@ -23,6 +23,9 @@
             // задание 3
             char a = '"';
             Console.WriteLine($"{a}Hello there{a}");
+
+            // задание 4
+
         }
     }
 }
