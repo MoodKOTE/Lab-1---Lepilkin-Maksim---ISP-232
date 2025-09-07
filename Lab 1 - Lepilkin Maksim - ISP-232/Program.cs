@@ -1,4 +1,5 @@
-﻿namespace Lab_1___Lepilkin_Maksim___ISP_232
+﻿using System;
+namespace Lab_1___Lepilkin_Maksim___ISP_232
 {
     internal class Program
     {
@@ -21,11 +22,35 @@
             Console.WriteLine("I need more power!");
 
             // задание 3
-            char a = '"';
-            Console.WriteLine($"{a}Hello there{a}");
+            char cov = '"';
+            Console.WriteLine($"{cov}Hello there{cov}");
 
             // задание 4
-            ваыва
+            //int mon = int.Parse(Console.ReadLine());
+            //int sysb = int.Parse(Console.ReadLine());
+            //int clav = int.Parse(Console.ReadLine());
+            //int mouse = int.Parse(Console.ReadLine());
+            //Console.WriteLine((mon + sysb + clav + mouse) * 3);
+
+            // задание 5
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //Console.WriteLine(3 * (a + b) * (a + b) * (a + b) + 275 * b * b - 127 * a - 41);
+
+            // задание 6
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine($"{cov}Привет,{name}!{cov}");
+            Console.WriteLine($"{cov}Сейчас тебе {age}.{cov}");
+            Console.WriteLine($"{cov}В следующем году тебе будет {age + 1}.{cov}");
+
+            // задание 7
+            string city = Console.ReadLine();
+            Console.WriteLine($"Привет, {name}! Тебе {age} лет и ты живёшь в городе {city}.");
+
+            // задание 8
+            int C = int.Parse(Console.ReadLine());
+            Console.WriteLine($"{cov}Температура:{(C * 9 / 5) + 32}{cov}");
         }
     }
 }
