@@ -26,16 +26,16 @@ namespace Lab_1___Lepilkin_Maksim___ISP_232
             Console.WriteLine($"{cov}Hello there{cov}");
 
             // задание 4
-            //int mon = int.Parse(Console.ReadLine());
-            //int sysb = int.Parse(Console.ReadLine());
-            //int clav = int.Parse(Console.ReadLine());
-            //int mouse = int.Parse(Console.ReadLine());
-            //Console.WriteLine((mon + sysb + clav + mouse) * 3);
+            int mon = int.Parse(Console.ReadLine());
+            int sysb = int.Parse(Console.ReadLine());
+            int clav = int.Parse(Console.ReadLine());
+            int mouse = int.Parse(Console.ReadLine());
+            Console.WriteLine((mon + sysb + clav + mouse) * 3);
 
             // задание 5
-            //int a = int.Parse(Console.ReadLine());
-            //int b = int.Parse(Console.ReadLine());
-            //Console.WriteLine(3 * (a + b) * (a + b) * (a + b) + 275 * b * b - 127 * a - 41);
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine(3 * (a + b) * (a + b) * (a + b) + 275 * b * b - 127 * a - 41);
 
             // задание 6
             string name = Console.ReadLine();
