@@ -55,6 +55,8 @@ namespace Lab_1___Lepilkin_Maksim___ISP_232
             char cov1 = '"';
             int C = int.Parse(Console.ReadLine());
             Console.WriteLine($"{cov1}Температура:{(C * 9 / 5) + 32}°F{cov1}");
+
+
         }
     }
 }
