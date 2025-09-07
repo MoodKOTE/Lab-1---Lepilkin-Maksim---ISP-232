@@ -40,17 +40,21 @@ namespace Lab_1___Lepilkin_Maksim___ISP_232
             // задание 6
             string name = Console.ReadLine();
             int age = int.Parse(Console.ReadLine());
-            Console.WriteLine($"{cov}Привет,{name}!{cov}");
-            Console.WriteLine($"{cov}Сейчас тебе {age}.{cov}");
-            Console.WriteLine($"{cov}В следующем году тебе будет {age + 1}.{cov}");
+            char cov2 = '"';
+            Console.WriteLine($"{cov2}Привет,{name}!{cov2}");
+            Console.WriteLine($"{cov2}Сейчас тебе {age}.{cov2}");
+            Console.WriteLine($"{cov2}В следующем году тебе будет {age + 1}.{cov2}");
 
             // задание 7
+            string name1 = Console.ReadLine();
+            int age1 = int.Parse(Console.ReadLine());
             string city = Console.ReadLine();
-            Console.WriteLine($"Привет, {name}! Тебе {age} лет и ты живёшь в городе {city}.");
+            Console.WriteLine($"Привет, {name1}! Тебе {age1} лет и ты живёшь в городе {city}.");
 
             // задание 8
+            char cov1 = '"';
             int C = int.Parse(Console.ReadLine());
-            Console.WriteLine($"{cov}Температура:{(C * 9 / 5) + 32}{cov}");
+            Console.WriteLine($"{cov1}Температура:{(C * 9 / 5) + 32}{cov1}");
         }
     }
 }
